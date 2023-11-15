@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('childe.jpg') center center no-repeat; /* Nastavte cestu k pozadí */
+    background-size: cover;
+}
+
+.game-container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background: url('childe.jpg') center center no-repeat; /* Průhledné pozadí pro hru */
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#target {
+    position: absolute;
+    width: 80px; /* Upravte podle velikosti vašich obrázků */
+    height: 80px; /* Upravte podle velikosti vašich obrázků */
+    background-image: url('Ganyu.jpg');
+    background-image: url('01.png'); /* Nastavte výchozí cestu k obrázku */
+    background-size: cover;
+    cursor: pointer;
+}
